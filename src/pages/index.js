@@ -32,7 +32,9 @@ const IndexPage = () => (
           everytihing from samll business sites to rich interactive web apps.
         </p>
         <a href="#">
-          <button className="hire-me-btn">i'm looking to hire !</button>
+          <button className="hire-me-btn">
+            <Link to="/contact">i'm looking to hire !</Link>
+          </button>
         </a>
       </section>
     </div>
