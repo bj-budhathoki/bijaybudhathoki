@@ -34,7 +34,10 @@ const IndexPage = () => (
         <button className="hire-me-btn">
           <Link
             to="/contact"
-            style={{ textDecoretion: 'none', color: 'whitesmoke' }}
+            style={{
+              color: 'whitesmoke',
+              textDecoration: 'none',
+            }}
           >
             i'm looking to hire !
           </Link>
