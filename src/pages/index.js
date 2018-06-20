@@ -32,7 +32,12 @@ const IndexPage = () => (
           everytihing from samll business sites to rich interactive web apps.
         </p>
         <button className="hire-me-btn">
-          <Link to="/contact">i'm looking to hire !</Link>
+          <Link
+            to="/contact"
+            style={{ textDecoretion: 'none', color: 'whitesmoke' }}
+          >
+            i'm looking to hire !
+          </Link>
         </button>
       </section>
     </div>
