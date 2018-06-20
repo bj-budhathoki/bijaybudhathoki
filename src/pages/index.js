@@ -31,11 +31,9 @@ const IndexPage = () => (
           I am a web designer and developer from kathmandu city.I enjoy building
           everytihing from samll business sites to rich interactive web apps.
         </p>
-        <a href="#">
-          <button className="hire-me-btn">
-            <Link to="/contact">i'm looking to hire !</Link>
-          </button>
-        </a>
+        <button className="hire-me-btn">
+          <Link to="/contact">i'm looking to hire !</Link>
+        </button>
       </section>
     </div>
   </div>
