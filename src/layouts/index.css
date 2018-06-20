@@ -1,0 +1,88 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+
+/*==============index.js style=================== */
+.site-wrapper{
+  /* background: red; */
+  background: url('./site1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100wh;
+  height:100vh;
+}
+.main{
+  width:95%;
+  height: 100px;
+  margin:auto;
+}
+.site-header{
+  display:grid;
+  padding-top:30px;
+  grid-template-columns: 1fr 1fr;
+
+  /* background:red; */
+}
+.site-menu ul{
+list-style: none;
+display:grid;
+grid-template-columns:repeat(4,1fr);
+}
+.site-menu li a{
+  text-decoration: none;
+  color:whitesmoke;
+}
+
+.intro-section{
+color:antiquewhite;
+width: 40%;
+margin-top:40px;
+height: 200px;
+padding:10px;
+}
+.intro-section p{
+line-height: 30px;
+letter-spacing:2px;
+}
+.hire-me-btn{
+  background:rgba(255, 255, 0,.8);
+  height: 40px;
+  border-radius:30px;
+  outline: none;
+  border:0;
+  cursor: pointer;
+  /* padding:15px; */
+  box-sizing: border-box;
+  margin-top:30px;
+  color:#ffffff;
+  font-size: 20px;
+}
